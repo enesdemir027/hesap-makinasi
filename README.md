@@ -1,58 +1,48 @@
-📖 Proje Hakkında
-Bu proje, Python'un Tkinter kütüphanesi kullanılarak geliştirilmiş modern bir hesap makinesi uygulamasıdır. Uygulama, temel matematik işlemlerini gerçekleştirmenin yanı sıra kapsamlı bir loglama sistemi içermektedir.
+Python Tkinter ile geliştirilmiş, log sistemli modern hesap makinesi. Temel işlemler + yüzde hesaplama özelliği.
 
-✨ Temel Özellikler
-✅ Tam Fonksiyonel Hesap Makinesi: Toplama, çıkarma, çarpma, bölme
+✨ ÖZELLİKLER
 
-✅ Gelişmiş İşlemler: Yüzde (%) hesaplama
+✅ Toplama, çıkarma, çarpma, bölme
 
-✅ Kapsamlı Log Sistemi: Tüm kullanıcı etkileşimlerini kaydetme
+✅ Yüzde (%) hesaplama
 
-✅ Hata Yönetimi: Geçersiz işlemler için otomatik hata kontrolü
+✅ Loglama sistemi (tüm işlemler kaydedilir)
 
-✅ Modern Arayüz: Kullanıcı dostu ve estetik tasarım
+✅ Hata kontrolü
 
-🎨 Arayüz Tasarımı
-Renk Kodlu Butonlar:
+✅ Modern arayüz
 
-Normal tuşlar: Açık gri (#eeeee4)
+🎨 TASARIM
 
-Temizleme (C): Siyah üzerine beyaz
+Renkli butonlar (gri, siyah, turuncu)
 
-Eşittir (=): Turuncu üzerine beyaz
+Büyük ekran (40 karakter)
 
-Büyük Display: 40 karakter genişliğinde, sağa dayalı
+Grid düzeni
 
-Responsive Düzen: Grid sistemi ile esnek yerleşim
+Arial font
 
-Profesyonel Font: Arial 14-16 punto
+📊 LOG SİSTEMİ
 
-📊 Loglama Sistemi
-Uygulama, kullanıcının tüm etkileşimlerini detaylı şekilde kaydeder:
-
-Log Türleri:
-Başlangıç Logları: Uygulama açılış animasyonu
-
-Tıklama Logları: Her tuş tıklaması
-
-Sonuç Logları: Hesaplama sonuçları
-
-Silme Logları: Ekran temizleme işlemleri
-
-Hata Logları: Geçersiz işlem durumları
-
-Log Formatı:
-json
 {
   "status": "True(200)",
   "message": "sayi tikladi kanka"
 }
-⚙️ Teknik Detaylar
-Kullanılan Teknolojiler:
-Python 3.x: Ana programlama dili
 
-Tkinter: Grafiksel kullanıcı arayüzü
+5 tip log: Başlangıç, Tıklama, Sonuç, Silme, Hata
 
-JSON: Log verilerinin formatlanması
+⚙️ TEKNİK
 
-time: Zaman gecikmeleri ve log zamanlaması
+Dil: Python
+
+Kütüphane: Tkinter
+
+Format: JSON log
+
+Zaman: time modülü
+
+🚀 ÇALIŞTIRMA
+bash
+python hesap_makinesi.py
+Geliştirici: enesdemir
+Versiyon: 1.0
