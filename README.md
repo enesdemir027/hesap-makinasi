@@ -109,5 +109,3 @@ for i in range(4):
 for i in range(1, 5):
     pencere.grid_rowconfigure(i, weight=1)
 pencere.mainloop()
-
-<img width="787" height="626" alt="image" src="https://github.com/user-attachments/assets/0c5385e4-dca0-4b46-8eb4-697b13f31df6" />
