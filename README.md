@@ -1,2 +1,1 @@
-# hesap-makinasi
-Merhaba dostlar! Bugün loglu ve arayüzlü modern bir hesap makinesi geliştirdim. Bu projede hem görsel bir arayüz hem de tüm işlemlerin kaydını tutan log sistemi bulunuyor
+<img width="787" height="626" alt="image" src="https://github.com/user-attachments/assets/53e1e382-6fa2-4261-87d0-25831d4574de" /><img width="787" height="626" alt="image" src="https://github.com/user-attachments/assets/405ac1d1-4a70-49c4-9887-6f2ebb54e984" />
