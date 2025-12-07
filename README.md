@@ -42,7 +42,7 @@ Format: JSON log
 Zaman: time modülü
 
 🚀 ÇALIŞTIRMA
-bash
-python hesap_makinesi.py
+
+python hesap.py
 Geliştirici: enesdemir
 Versiyon: 1.0
